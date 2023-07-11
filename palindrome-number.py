@@ -1,3 +1,5 @@
+# easy difficulty
+
 class Solution(object):
     def isPalindrome(self, x):
         newX = str(x)
