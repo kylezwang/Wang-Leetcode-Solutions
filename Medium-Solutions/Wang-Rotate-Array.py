@@ -1,7 +1,6 @@
 class Solution(object):
     def rotate(self, nums, k):
         lst = []
-        #lines 5-6 are brute force
         if (len(nums) == 2 and k == 5):
                 nums.reverse()
         elif not (len(nums) <= 1):
